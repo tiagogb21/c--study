@@ -1,0 +1,1 @@
+var lista = new List<char> {'a', 'b', 'c'};
