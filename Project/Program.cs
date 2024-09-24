@@ -36,12 +36,35 @@ Console.WriteLine("------------------------------------------");
 //     - A média entre os dois números.
 
 Console.Write("Digite o primeiro número: ");
-var num1 = int.Parse(Console.ReadLine());
-Console.Write("Digite o segundo número: ");
-var num2 = int.Parse(Console.ReadLine());
+var input1 = Console.ReadLine();
+if (input1 != null)
+{
+    var num1 = double.Parse(input1);
 
-Console.WriteLine($"Soma: {num1} + {num2} = {num1 + num2}");
-Console.WriteLine($"Subtração: {num1} - {num2} = {num1 - num2}");
-Console.WriteLine($"Multiplicação: {num1} * {num2} = {num1 * num2}");
-Console.WriteLine($"Divisão: {num1} / {num2} = {num1 / num2}");
-Console.WriteLine($"Média: ({num1} + {num2})/2 = {(num1 + num2)/2}");
+    Console.Write("Digite o segundo número: ");
+    var input2 = Console.ReadLine();
+    if (input2 != null)
+    {
+        var num2 = double.Parse(input2);
+
+        Console.WriteLine($"Soma: {num1} + {num2} = {num1 + num2}");
+        Console.WriteLine($"Subtração: {num1} - {num2} = {num1 - num2}");
+        Console.WriteLine($"Multiplicação: {num1} * {num2} = {num1 * num2}");
+
+        if (num2 != 0)
+        {
+            Console.WriteLine($"Divisão: {num1} / {num2} = {num1 / num2}");
+        }
+        else
+        {
+            Console.WriteLine("Divisão: Não é possível dividir por zero.");
+        }
+
+        Console.WriteLine($"Média: ({num1} + {num2})/2 = {(num1 + num2) / 2}");
+    }
+}
+else
+{
+    Console.WriteLine("Entrada inválida para o segundo número.");
+}
+
