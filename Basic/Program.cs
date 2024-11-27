@@ -1,11 +1,25 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-Array amostra = Array.CreateInstance(typeof(double), 5);
-amostra.SetValue(5.9, 0);
-amostra.SetValue(1.8, 1);
-amostra.SetValue(7.1, 2);
-amostra.SetValue(10, 3);
-amostra.SetValue(6.9, 4);
+enum NivelDeAcesso
+{
+    Basico = 1,
+    Intermediario = 2,
+    Avancado = 3
+}
 
-foreach (var item in amostra)
-  Console.WriteLine(item);
+class Program
+{
+    static void Main()
+    {
+        NivelDeAcesso acesso = NivelDeAcesso.Intermediario;
+
+        Console.WriteLine(acesso);                    // Saída: Intermediario
+        Console.WriteLine((int)acesso);               // Saída: 2
+        Console.WriteLine(Enum.GetName(typeof(NivelDeAcesso), 3)); // Saída: Avancado
+
+        foreach (var nivel in Enum.GetValues(typeof(NivelDeAcesso)))
+        {
+            Console.WriteLine($"{(int)nivel} - {nivel}");
+        }
+    }
+}

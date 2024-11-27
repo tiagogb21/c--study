@@ -37,3 +37,4 @@
 /home/tiago-garbi/Documentos/c#/FirstProject/bin/Debug/net8.0/System.Security.Permissions.dll
 /home/tiago-garbi/Documentos/c#/FirstProject/obj/Debug/net8.0/FirstProject.RazorAssemblyInfo.cache
 /home/tiago-garbi/Documentos/c#/FirstProject/obj/Debug/net8.0/FirstProject.RazorAssemblyInfo.cs
+/home/tiago-garbi/Documentos/c#/FirstProject/bin/Debug/net8.0/Communication/Requests/RequestChangePassword.Json
