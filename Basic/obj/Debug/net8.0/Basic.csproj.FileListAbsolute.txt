@@ -1,0 +1,15 @@
+/home/tiago-garbi/Documentos/c#/Basic/bin/Debug/net8.0/Basic
+/home/tiago-garbi/Documentos/c#/Basic/bin/Debug/net8.0/Basic.deps.json
+/home/tiago-garbi/Documentos/c#/Basic/bin/Debug/net8.0/Basic.runtimeconfig.json
+/home/tiago-garbi/Documentos/c#/Basic/bin/Debug/net8.0/Basic.dll
+/home/tiago-garbi/Documentos/c#/Basic/bin/Debug/net8.0/Basic.pdb
+/home/tiago-garbi/Documentos/c#/Basic/obj/Debug/net8.0/Basic.GeneratedMSBuildEditorConfig.editorconfig
+/home/tiago-garbi/Documentos/c#/Basic/obj/Debug/net8.0/Basic.AssemblyInfoInputs.cache
+/home/tiago-garbi/Documentos/c#/Basic/obj/Debug/net8.0/Basic.AssemblyInfo.cs
+/home/tiago-garbi/Documentos/c#/Basic/obj/Debug/net8.0/Basic.csproj.CoreCompileInputs.cache
+/home/tiago-garbi/Documentos/c#/Basic/obj/Debug/net8.0/Basic.sourcelink.json
+/home/tiago-garbi/Documentos/c#/Basic/obj/Debug/net8.0/Basic.dll
+/home/tiago-garbi/Documentos/c#/Basic/obj/Debug/net8.0/refint/Basic.dll
+/home/tiago-garbi/Documentos/c#/Basic/obj/Debug/net8.0/Basic.pdb
+/home/tiago-garbi/Documentos/c#/Basic/obj/Debug/net8.0/Basic.genruntimeconfig.cache
+/home/tiago-garbi/Documentos/c#/Basic/obj/Debug/net8.0/ref/Basic.dll
